@@ -1,0 +1,27 @@
+.grid-card__container {
+  width: 100%;
+  background-color: white;
+  border-radius: var(--olsera-radii-md);
+  box-shadow: var(--olsera-shadows-md);
+}
+
+.grid-card__show {
+  &-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: var(--olsera-radii-md);
+  }
+}
+
+.grid-card__body {
+  display: flex;
+  flex-direction: column;
+  padding:var(--olsera-space-2);
+  &-name {
+    font-size: var(--olsera-fontSizes-md);
+    margin-bottom: var(--olsera-space-2);
+    text-align: center;
+  }
+}

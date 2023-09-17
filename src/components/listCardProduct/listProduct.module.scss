@@ -1,0 +1,72 @@
+.list-card__container {
+  cursor: pointer;
+  padding: 0 var(--olsera-space-3);
+  display: block;
+}
+
+.list-card__container.qtyInCart {
+  border-left: 4px solid var(--olsera-colors-ol_blue-500);
+  .list-card__body {
+    &-name {
+      color: var(--olsera-colors-ol_blue-500);
+      font-weight: var(--olsera-fontWeights-bold);
+    }
+  }
+}
+
+.list-card__container.outOfStock {
+  .list-card__show {
+    &-img {
+      filter: grayscale(1);
+    }
+  }
+  .list-card__body {
+    &-name {
+      color: #767676;
+    }
+    &-price {
+      color: var(--olsera-colors-ol_red-500)
+    }
+  }
+}
+
+.list-card__inner {
+  display: flex;
+  width: 100%;
+  padding: var(--olsera-space-3) 0;
+  & > * + * {
+    margin-left: var(--olsera-space-2);
+  }
+}
+
+.list-card__container:not(:last-child) .list-card__inner {
+  border-bottom: 1px solid #CECECE;
+}
+
+.list-card__show {
+  width: 112px;
+  height: 112px;
+  &-img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--olsera-radii-md);
+    object-fit: cover;
+  }
+}
+
+.list-card__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  & > * + * {
+    margin-top: var(--olsera-space-2);
+  }
+  &-name {
+    font-size: var(--olsera-fontSizes-md);
+  }
+  &-price {
+    font-size: var(--olsera-fontSizes-md);
+    font-weight: var(--olsera-fontWeights-bold);
+  }
+}

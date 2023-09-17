@@ -1,0 +1,120 @@
+{
+  "data": [
+      {
+          "payment_id": 10,
+          "name": "Payment On Delivery",
+          "code": "CD",
+          "enabled": 0,
+          "detail": []
+      },
+      {
+          "payment_id": 12,
+          "name": "Virtual Account",
+          "code": "BT",
+          "enabled": 1,
+          "detail": [
+              {
+                  "payment_id": 12,
+                  "name": "Bank Central Asia",
+                  "code": "BCA",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/logo\/virtualaccount\/bca-logo.svg",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 12,
+                  "name": "Bank Negara Indonesia",
+                  "code": "BNI",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/logo\/virtualaccount\/bni-logo.svg",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 12,
+                  "name": "Bank Mandiri",
+                  "code": "MANDIRI",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/logo\/virtualaccount\/mandiri-logo.svg",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 12,
+                  "name": "Bank Permata",
+                  "code": "PERMATA",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/logo\/virtualaccount\/permata-logo.svg",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 12,
+                  "name": "Bank Sahabat Sampoerna",
+                  "code": "SAHABAT_SAMPOERNA",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/img\/no-photo-available.png",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 12,
+                  "name": "Bank Rakyat Indonesia",
+                  "code": "BRI",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/logo\/virtualaccount\/bri-logo.svg",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 12,
+                  "name": "Bank CIMB Niaga",
+                  "code": "CIMB",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/img\/no-photo-available.png",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 12,
+                  "name": "Bank Syariah Indonesia",
+                  "code": "BSI",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/img\/no-photo-available.png",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 12,
+                  "name": "Bank Jabar Banten",
+                  "code": "BJB",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/img\/no-photo-available.png",
+                  "enabled": 1
+              }
+          ]
+      },
+      {
+          "payment_id": null,
+          "name": "E-Wallet",
+          "code": null,
+          "enabled": 1,
+          "detail": [
+              {
+                  "payment_id": 14,
+                  "name": " Dana ",
+                  "code": "DANA",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/logo\/ewallet\/dana-logo.svg",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 18,
+                  "name": " ShopeePay",
+                  "code": "ShopeePay",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/logo\/ewallet\/shopeepay-logo.svg",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 13,
+                  "name": " Ovo",
+                  "code": "OVO",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/logo\/ewallet\/ovo-logo.svg",
+                  "enabled": 1
+              },
+              {
+                  "payment_id": 15,
+                  "name": " LinkAja",
+                  "code": "LINKAJA",
+                  "image": "http:\/\/api.antarinmakan.olsera.indociti.com\/logo\/ewallet\/linkaja-logo.svg",
+                  "enabled": 1
+              }
+          ]
+      }
+  ],
+  "status": 200,
+  "error": 0
+}

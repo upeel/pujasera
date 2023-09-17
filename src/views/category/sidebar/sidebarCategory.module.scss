@@ -1,0 +1,11 @@
+.sdb-cat-item {
+  display: block;
+  padding: var(--olsera-space-4) var(--olsera-space-6);
+  font-size: var(--olsera-fontSizes-sm);
+  :hover {
+    background-color: rgba(0, 120, 206, 0.12)
+  }
+  &.active {
+    background-color: rgba(0, 120, 206, 0.12)
+  }
+}

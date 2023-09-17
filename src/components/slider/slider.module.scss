@@ -1,0 +1,38 @@
+.slider-horizontal {
+  cursor: grab;
+  overflow: hidden;
+  width: auto;
+  margin-right: var(--padding-container);
+  background-color: white;
+  &__inner {
+    display: flex;
+    width: auto;
+    & > *:first-child {
+      margin-left: var(--padding-container);
+    }
+    & > * + * {
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+
+.scroll-horizontal {
+  overflow-y: hidden;
+  overflow-x: auto;
+  width: auto;
+  margin-right: var(--padding-container);
+  background-color: white;
+  &__inner {
+    display: flex;
+    width: auto;
+    & > *:first-child {
+      margin-left: var(--padding-container);
+    }
+    & > * + * {
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+

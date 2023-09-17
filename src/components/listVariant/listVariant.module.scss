@@ -1,0 +1,27 @@
+.ol-radio-menu {
+  display: flex;
+  border: 1px solid #F1F1F1;
+  padding: var(--olsera-space-2);
+  border-radius: 0.313rem;
+  align-items: center;
+  &__img {
+    width: var(--olsera-sizes-10);
+    height: var(--olsera-sizes-10);
+    border-radius: 0.313rem;
+    object-fit: cover;
+  }
+  &__product {
+    font-size: var(--olsera-fontSizes-sm);
+  }
+  &__left {
+    flex: 1;
+  }
+}
+
+.ol-radio-menu.isOutStock {
+  .ol-radio-menu {
+    &__img {
+      filter: grayscale(1);
+    }
+  }
+}

@@ -1,0 +1,119 @@
+// Global Style
+@import "boxicons/css/boxicons.min.css";
+@import "react-phone-number-input/style.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --padding-container: var(--olsera-space-4);
+  --primary-color-blue: #0078CE;
+  --primary-color-lightblue: rgba(0, 120, 206, 0.12);
+}
+
+#root {
+  min-height: 100vh;
+  height: 100%;
+}
+.phone-input_container {
+  position: relative;
+}
+.phone-input_container .PhoneInputCountry {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.container-with-px {
+  padding-left: var(--padding-container);
+  padding-right: var(--padding-container);
+}
+
+.container-without-px {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.remove-spaceX-4 {
+  margin-left: calc(var(--olsera-space-4) * -1);
+  margin-right: calc(var(--olsera-space-4) * -1);
+}
+
+.section-wrap {
+  margin-top: var(--olsera-space-4);
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+.hidden-scrollbar{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.ol-btn-link {
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: var(--olsera-fontSizes-sm);
+  color: var(--olsera-colors-ol_blue-500);
+  font-weight: var(--olsera-fontWeights-bold);
+  text-align: left;
+  &:hover {
+    color: var(--olsera-colors-ol_blue-200);
+  }
+  &:active {
+    color: var(--olsera-colors-ol_blue-400);
+  }
+}
+
+.ol-divider {
+  opacity: 0.6;
+  border: 0;
+  border-color: #CECECE;
+  border-style: solid;
+  border-bottom-width: 1px;
+  width: 100%;
+}
+
+.ol-divider_dashed {
+  border-style: dashed;
+}
+
+.ol-hd-scb {
+  &::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+  }
+  &{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+.badge-notif {
+  min-width: 20px;
+  height: 20px;
+  padding: 0 0.25rem;
+  border-radius: 20px;
+  background-color: #F44336;
+  border: 1px solid white;
+  text-align: center;
+  font-size: var(--olsera-fontSizes-xs);
+  line-height: -var(--olsera-fontSizes-xs);
+  color: white;
+}
+
+.ol-accordion {
+  .chakra-accordion__item {
+    border: none;
+    &:last-of-type {
+      border: none;
+    }
+    & .chakra-accordion__button {
+      padding: var(--olsera-space-4);
+      font-weight: var(--olsera-fontWeights-semibold);
+    }
+  }
+}

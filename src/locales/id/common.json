@@ -1,0 +1,5 @@
+{
+  "msg_timeout": "Gangguan saat meminta, harap periksa jaringan dan paket data anda.",
+  "msg_network_back_online": "Anda kembali online.",
+  "msg_network_offline": "Anda sedang offline, harap periksa jaringan dan paket data anda."
+}

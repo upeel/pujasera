@@ -1,0 +1,27 @@
+.dtm-option_wrap {
+  padding-top: var(--olsera-space-6);
+  padding-bottom: var(--olsera-space-6);
+  border-bottom: 1px solid #CECECE;
+  // & >*:not(style)~*:not(style) {
+  //   margin-top: var(--olsera-space-6);
+  //   margin-bottom: var(--olsera-space-6);
+  // }
+}
+
+.dtm-choose-item {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dtm-section {
+  margin-top: var(--olsera-space-8);
+}
+
+.dtm-section-ctr {
+  display: flex;
+  justify-content: center;
+}
+
+.dtm-section-actb {
+  margin-bottom: var(--olsera-space-8);
+}

@@ -1,0 +1,31 @@
+.header-container {
+  width: 100%;
+  height: 72px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-left,.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left, .header-right {
+  & > * + * {
+    padding-left: var(--olsera-space-2);
+  }
+}
+
+.header-right {
+  &__noDesk {
+    width: 100%;
+    &-badge {
+      background-color: red;
+      display: flex;
+      font-size: 12px;
+    }
+  }
+}

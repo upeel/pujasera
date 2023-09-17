@@ -1,0 +1,15 @@
+.fbc-container {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-origin: 0;
+  padding-top: var(--olsera-space-4);
+  padding-bottom: var(--olsera-space-4);
+  z-index: 96;
+}
+
+.fbc-container.shadow {
+  box-shadow: var(--olsera-shadows-invertLg);
+}

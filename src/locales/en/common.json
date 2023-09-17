@@ -1,0 +1,5 @@
+{
+  "msg_timeout": "Interruption when requesting, please check your network and data.",
+  "msg_network_back_online": "You're back online.",
+  "msg_network_offline": "You're offline, please check your network and data."
+}

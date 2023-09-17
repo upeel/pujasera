@@ -1,0 +1,28 @@
+.list-item-invoice {
+  cursor: pointer;
+  &:hover {
+    background-color: var(--olsera-colors-ol_blue-50);
+  }
+}
+
+.list-item-invoice.disabled {
+  filter: grayscale(1);
+  p {
+    color: rgba(0,0,0,.38);
+  }
+}
+.list-item-invoice__inner.withDivider {
+  border-bottom: 0.5px solid #CECECE;
+}
+
+.list-item-invoice__status.pending {
+  color: var(--olsera-colors-ol_orange-500);
+}
+
+.list-item-invoice__status.process {
+  color: var(--olsera-colors-ol_blue-500);
+}
+
+.list-item-invoice__status.cancel {
+  color: var(--olsera-colors-ol_red-500);
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "code": "BCA",
+    "data": [
+      {
+        "title": "Mesin ATM",
+        "description": [
+          "Tekan tombol 'Download QRIS' untuk mengunduh gambar QRIS.",
+          "Buka aplikasi e-Wallet atau e-Banking. yang menyediakan pembayaran QRIS.",
+          "Cari opsi scan QRIS dari gambar. Pilih gambar QRIS yang sebelumnya.",
+          "Setelah discan, maka akan muncul total harga transaksi.",
+          "Konfirmasi dan bayar.",
+          "Anda berhasil membayar pesanan."
+        ]
+      },
+      {
+        "title": "Aplikasi My BCA",
+        "description": [
+          "Tekan tombol 'Download QRIS' untuk mengunduh gambar QRIS.",
+          "Buka aplikasi e-Wallet atau e-Banking. yang menyediakan pembayaran QRIS.",
+          "Cari opsi scan QRIS dari gambar. Pilih gambar QRIS yang sebelumnya.",
+          "Setelah discan, maka akan muncul total harga transaksi.",
+          "Konfirmasi dan bayar.",
+          "Anda berhasil membayar pesanan."
+        ]
+      },
+      {
+        "title": "Teller Bank",
+        "description": [
+          "Tekan tombol 'Download QRIS' untuk mengunduh gambar QRIS.",
+          "Buka aplikasi e-Wallet atau e-Banking. yang menyediakan pembayaran QRIS.",
+          "Cari opsi scan QRIS dari gambar. Pilih gambar QRIS yang sebelumnya.",
+          "Setelah discan, maka akan muncul total harga transaksi.",
+          "Konfirmasi dan bayar.",
+          "Anda berhasil membayar pesanan."
+        ]
+      },
+      {
+        "title": "ATM Bank lain",
+        "description": [
+          "Tekan tombol 'Download QRIS' untuk mengunduh gambar QRIS.",
+          "Buka aplikasi e-Wallet atau e-Banking. yang menyediakan pembayaran QRIS.",
+          "Cari opsi scan QRIS dari gambar. Pilih gambar QRIS yang sebelumnya.",
+          "Setelah discan, maka akan muncul total harga transaksi.",
+          "Konfirmasi dan bayar.",
+          "Anda berhasil membayar pesanan."
+        ]
+      }
+    ]
+  }
+]

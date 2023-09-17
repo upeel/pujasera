@@ -1,0 +1,28 @@
+.x-food-filter {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+    flex: 1 100%;
+  }
+  &__link.active {
+    transition: .3s all ease-in-out;
+    color: var(--primary-color-blue);
+    border-bottom: 3px solid var(--primary-color-blue);
+    font-weight: 700;
+  }
+  &__link {
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    padding: var(--olsera-space-3) var(--olsera-space-2);
+    font-size: var(--olsera-fontSizes-md);
+    font-weight: 600;
+  }
+  // &__item:hover {
+  //   color: var(--primary-color-blue);
+  //   background-color: var(--primary-color-lightblue);
+  //   cursor: pointer;
+  // }
+}

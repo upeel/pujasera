@@ -1,0 +1,17 @@
+.pd-title {
+  font-size: var(--olsera-fontSizes-lg);
+  font-weight: var(--olsera-fontWeights-bold);
+}
+
+.pd-items {
+  justify-content: space-between;
+}
+
+.pd-item {
+  &_label, &_value {
+    font-size: var(--olsera-fontSizes-sm);
+  }
+  &_value {
+    font-weight: var(--olsera-fontWeights-semibold);
+  }
+}

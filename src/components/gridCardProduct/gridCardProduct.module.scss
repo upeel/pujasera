@@ -1,0 +1,56 @@
+.grid-card__container {
+  width: 100%;
+  background-color: white;
+  padding: var(--olsera-space-2);
+  border-radius: var(--olsera-radii-md);
+  box-shadow: var(--olsera-shadows-md);
+  transition: all ease .3s;
+}
+
+.grid-card__container.qtyInCart {
+  border-bottom: 4px solid var(--olsera-colors-ol_blue-500);
+  .grid-card__body {
+    &-name {
+      color: var(--olsera-colors-ol_blue-500);
+      font-weight: var(--olsera-fontWeights-bold);
+    }
+  }
+}
+
+.grid-card__container.outOfStock {
+  .grid-card__show {
+    &-img {
+      filter: grayscale(1);
+    }
+  }
+  .grid-card__body {
+    &-name {
+      color: #767676;
+    }
+    &-price {
+      color: var(--olsera-colors-ol_red-500)
+    }
+  }
+}
+
+.grid-card__show {
+  &-img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--olsera-radii-md);
+  }
+}
+
+.grid-card__body {
+  display: flex;
+  flex-direction: column;
+  padding:var(--olsera-space-2) 0;
+  &-name {
+    font-size: var(--olsera-fontSizes-md);
+    margin-bottom: var(--olsera-space-2);
+  }
+  &-price {
+    font-size: var(--olsera-fontSizes-sm);
+    font-weight: var(--olsera-fontWeights-bold);
+  }
+}

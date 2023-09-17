@@ -1,0 +1,20 @@
+.menu-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 97;
+}
+
+.packet-group:not(:first-child) {
+  padding-top: var(--olsera-space-5);
+  margin-top: var(--olsera-space-3);
+  position: relative;
+}
+.packet-group:not(:first-child)::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-top: 4px solid #F5F5F5;
+}
